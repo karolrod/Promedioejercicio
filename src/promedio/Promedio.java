@@ -14,7 +14,7 @@ public class Promedio {
 		System.out.println("Ingrese el valor 3:");
 		int valor3 = ingreso.nextInt();
 		int total = valor1 + valor2 + valor3;
-		int promedio = total / 3;
+		float promedio = total / 3;
 		System.out.println("El promedio es: " + promedio);
 		ingreso.close();
 
